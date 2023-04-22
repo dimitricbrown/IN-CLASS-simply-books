@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 export default function User({ userObj }) {
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
-      <Card.Img variant="top" src={userObj.photoURL} alt={userObj.displayName} style={{ height: '400px' }} />
+      <Card.Img variant="top" src={userObj.photoURL} alt={userObj.displayName} style={{ height: 'auto' }} />
       <Card.Body>
         <Card.Title>{userObj.displayName}</Card.Title>
         <Card.Text>
